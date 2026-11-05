@@ -1,0 +1,10 @@
+{
+  "name": "plain-ayi",
+  "version": "1.0.0",
+  "description": "Search a plain-English guide to open-source AI projects: what each does, cost and privacy.",
+  "mcpServers": {
+    "plain-ayi": {
+      "httpUrl": "https://plain-ayi.com/mcp"
+    }
+  }
+}
