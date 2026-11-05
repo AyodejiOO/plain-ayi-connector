@@ -102,6 +102,31 @@ Or add to `~/.gemini/settings.json`:
 ```
 </details>
 
+## The Plain-AyI skill
+
+The connector gives your assistant the data. The **Plain-AyI skill** teaches it how to help with it well. It asks a question or two when a request is vague, suggests a few options rather than one "winner", checks the details, and explains each option's cost, coding needs and privacy in plain words, with a short safety note before anything is installed.
+
+<details open>
+<summary><b>Claude Code (skill and connector together)</b></summary>
+
+Install the plugin, which adds both:
+
+```text
+/plugin marketplace add AyodejiOO/plain-ayi-connector
+/plugin install plain-ayi@plain-ayi
+```
+</details>
+
+<details>
+<summary><b>Claude (web and desktop)</b></summary>
+
+1. Add the connector first (see above).
+2. Download `plain-ayi-skill.zip` from the [latest release](https://github.com/AyodejiOO/plain-ayi-connector/releases/latest).
+3. In Claude, open **Customize → Skills**, choose to upload a skill, and select the zip.
+</details>
+
+The skill's instructions are in [`skills/plain-ayi/SKILL.md`](skills/plain-ayi/SKILL.md), so you can read exactly what it tells your assistant.
+
 ### Tools
 
 | Tool | What it does |

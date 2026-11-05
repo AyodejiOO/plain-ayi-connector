@@ -1,0 +1,15 @@
+{
+  "name": "plain-ayi",
+  "description": "The official Plain-AyI plugin: open-source AI projects, explained in plain words.",
+  "owner": {
+    "name": "Ayodeji Ogunniyi",
+    "url": "https://plain-ayi.com"
+  },
+  "plugins": [
+    {
+      "name": "plain-ayi",
+      "source": "./",
+      "description": "Find open-source AI tools and understand them in plain words, with the Plain-AyI connector and skill."
+    }
+  ]
+}

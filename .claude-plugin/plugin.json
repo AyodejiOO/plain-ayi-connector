@@ -1,0 +1,19 @@
+{
+  "name": "plain-ayi",
+  "version": "1.0.0",
+  "description": "Find open-source AI tools and understand them in plain words. Adds the read-only Plain-AyI connector and a skill that asks the right questions, suggests a few options and explains cost, coding and privacy.",
+  "author": {
+    "name": "Ayodeji Ogunniyi",
+    "url": "https://x.com/ayodeji_FG"
+  },
+  "homepage": "https://plain-ayi.com",
+  "repository": "https://github.com/AyodejiOO/plain-ayi-connector",
+  "license": "MIT",
+  "keywords": ["ai", "open-source", "plain-language", "mcp", "discovery"],
+  "mcpServers": {
+    "plain-ayi": {
+      "type": "http",
+      "url": "https://plain-ayi.com/mcp"
+    }
+  }
+}
